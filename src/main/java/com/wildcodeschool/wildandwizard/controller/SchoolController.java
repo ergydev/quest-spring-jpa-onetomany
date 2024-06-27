@@ -26,6 +26,7 @@ public class SchoolController {
     @Autowired
     private WizardRepository wizardRepository;
 
+    
     @GetMapping("/")
     public String getSchools(Model out) {
 
@@ -91,6 +92,7 @@ public class SchoolController {
         return "redirect:/school/register?idSchool=" + idSchool;
     }
 
+    
     public Method getMethod(Object obj, String methodName, Class[] args) {
         Method method;
         try {
