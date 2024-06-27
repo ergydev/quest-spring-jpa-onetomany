@@ -1,4 +1,4 @@
-package main.java.com.wildcodeschool.wildandwizard.controller;
+package com.wildcodeschool.wildandwizard.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +12,6 @@ import com.wildcodeschool.wildandwizard.repository.WizardRepository;
 import java.util.Optional;
 import com.wildcodeschool.wildandwizard.repository.SchoolRepository;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 
 
 

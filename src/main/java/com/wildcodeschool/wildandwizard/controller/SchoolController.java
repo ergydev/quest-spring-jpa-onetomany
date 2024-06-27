@@ -35,6 +35,7 @@ public class SchoolController {
         return "schools";
     }
 
+    @SuppressWarnings("unchecked")
     @GetMapping("/school/register")
     public String inscription(Model out,
                               @RequestParam Long idSchool) {
